@@ -22,7 +22,7 @@ model = load_model('chest_xray_all_data.h5')
 model.summary()  # As a reminder.
 ```
 
-    /Users/matthew.mitchell/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+    /anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
       from ._conv import register_converters as _register_converters
     Using TensorFlow backend.
 
